@@ -32,32 +32,5 @@
     "zlib"
   ],
   "features": {
-    "viewer": {
-      "description": "Viewer support in OpenMVS",
-      "dependencies": [
-        "glad",
-        "glfw3",
-        {
-          "name": "imgui",
-          "features": [
-            "glfw-binding",
-            "opengl3-binding"
-          ]
-        },
-        "portable-file-dialogs"
-      ]
-    },
-    "cuda": {
-      "description": "CUDA support for OpenMVS",
-      "dependencies": [
-        "cuda"
-      ]
-    },
-    "python": {
-      "description": "Python bindings for OpenMVS",
-      "dependencies": [
-        "boost-python"
-      ]
-    }
   }
 }
